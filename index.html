@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Find the Penguins</title>
+    <meta charset="utf-8">
+    <link href="css/index.css" rel="stylesheet" type="text/css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <link rel="shortcut icon" href="">
+    <script type="text/javascript" src="js/index.js"></script>
+    <script type="text/javascript" src="js/jquery-2.2.2.js"></script>
+</head>
+
+<body>
+    <div id="gameholder">
+        <div id="title"></div>
+        <div id="gameoverModal" class="modal" style="display: none;">
+            <div class="modal-content">
+                <span class="close">×</span>
+                <p id="alert" style="color: red;">Game Over!</p>
+            </div>
+        </div>
+        <div id="gameboard">
+            <div class="gamePiece" id="penguin3" style="background-image: url(images/mound_9.png);"></div>
+            <div class="gamePiece" id="penguin5" style="background-image: url(images/mound_1.png);"></div>
+            <div class="gamePiece" id="penguin2" style="background-image: url(images/mound_3.png);"></div>
+            <div class="gamePiece" id="penguin6" style="background-image: url(images/mound_2.png);"></div>
+            <div class="gamePiece" id="penguin7" style="background-image: url(images/mound_5.png);"></div>
+            <div class="gamePiece" id="yeti" style="background-image: url(images/mound_8.png);"></div>
+            <div class="gamePiece" id="penguin8" style="background-image: url(images/mound_4.png);"></div>
+            <div class="gamePiece" id="penguin1" style="background-image: url(images/mound_7.png);"></div>
+            <div class="gamePiece" id="yeti1" style="background-image: url(images/mound_8.png);"></div>
+            <div class="gamePiece" id="penguin9" style="background-image: url(images/mound_9.png);"></div>
+            <div class="gamePiece" id="penguin10" style="background-image: url(images/mound_10.png);"></div>
+            <div class="gamePiece" id="penguin4" style="background-image: url(images/mound_11.png);"></div>
+        </div>
+
+        <div class="score">
+            <h3>Score</h3>
+            <h4 id="score"><input id="scoreCount" type="text" readonly="" placeholder="00"></h4>
+        </div>
+        <div class="highscore">
+            <h3>Highscore</h3>
+            <h4 id="highscore"><input id="highscoreCount" type="text" readonly="" placeholder="00"></h4>
+        </div>
+    </div>
+
+    <script src="js/jquery-1.11.0.js"></script>
+
+</body>
+
+</html>
